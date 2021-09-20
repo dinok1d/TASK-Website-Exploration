@@ -21,7 +21,7 @@ function beGentle() {
 // add shout() inside the quotation marks after onclick in index.html like this.
 // <button onclick="shout()">SHOUT!</button>
 function shout() {
-  document.getElementsByTagName("body")[0].style.textTransform = "capitalize";
+  document.getElementsByTagName("body")[0].style.textTransform = "uppercase";
 }
 
 // 4. This will fetch a random name from the internet, and replace your name with it!
